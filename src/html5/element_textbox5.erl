@@ -25,6 +25,7 @@ render_element(Record) ->
 			     {class, [textbox, Record#textbox5.class]},
 			     {style, Record#textbox5.style},
 			     {value, Value},
-			     {autocomplete, Record#textbox5.autocomplete}
+			     {autocomplete, Record#textbox5.autocomplete},
+			     {placeholder, Record#textbox5.placeholder}
 			     
     ]).
