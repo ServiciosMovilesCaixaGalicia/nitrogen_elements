@@ -43,5 +43,8 @@
 -record(textbox5, {?ELEMENT_BASE(element_textbox5), text="", html_encode=true,
 		   next, postback, delegate, autocomplete="on", placeholder=""}).
 -record(numberbox5, {?ELEMENT_BASE(element_numberbox5), text="", html_encode=true,
+		   next, postback, delegate, autocomplete="on",
+		     placeholder=""}).
+-record(telbox5, {?ELEMENT_BASE(element_telbox5), text="", html_encode=true,
 		   next, postback, delegate, autocomplete="on", placeholder=""}).
 -endif.
