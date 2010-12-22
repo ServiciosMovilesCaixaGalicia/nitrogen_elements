@@ -40,11 +40,8 @@
 -record(dialog, {?ACTION_BASE(action_dialog), body="", width="auto", height="auto", show_cancel=false ,buttons=[]}).
 
 %%HTML5
--record(textbox5, {?ELEMENT_BASE(element_textbox5), text="", html_encode=true,
+-record(formbox5, {?ELEMENT_BASE(element_formbox5), type=text, text="", html_encode=true,
 		   next, postback, delegate, autocomplete="on", placeholder=""}).
--record(numberbox5, {?ELEMENT_BASE(element_numberbox5), text="", html_encode=true,
-		   next, postback, delegate, autocomplete="on",
-		     placeholder=""}).
--record(telbox5, {?ELEMENT_BASE(element_telbox5), text="", html_encode=true,
-		   next, postback, delegate, autocomplete="on", placeholder=""}).
+
+
 -endif.
